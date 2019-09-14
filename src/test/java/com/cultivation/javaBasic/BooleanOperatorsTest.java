@@ -36,12 +36,12 @@ class BooleanOperatorsTest {
 
     @Test
     void should_do_bitwise_and_boolean_operation() {
-        final int value = 0x1234_abcd;
-        final int mask = 0x000f_ff00;
+        final int value = 0x1234_abcd; // 0001 0010 0011 0100 1010 1011 1100 1101
+        final int mask = 0x000f_ff00; // 0000 0000 0000 1111 1111 1111 0000 0000
 
         // TODO: please write down the result directly to pass the test.
         // <--start
-        final int expected = 0;
+        final int expected = 305920; // 0000 0000 0000 0100 1010 1011 0000 0000
         // --end-->
 
         assertEquals(expected, value & mask);
