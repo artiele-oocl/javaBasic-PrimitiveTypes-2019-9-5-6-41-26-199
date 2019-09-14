@@ -50,3 +50,11 @@ First, get all 1's complement by flipping all bits resulting to 1111 1111 1111 1
 this means that value is negative and I need to get its 2's complement by adding one to the 1's complement.
 After getting its correct binary values, I convert it back to decimal with a negative sign.
 4. None.
+
+## CharTypeTest
+#### should_describe_escaped_chars
+1. This test is about popular reserved characters that needed to be escaped using backslash in order to be used properly.
+https://www.freeformatter.com/java-dotnet-escape.html#ad-output
+2. The test failed because those reserved characters do not represent empty spaces.
+3. The reserved characters are quite popular.
+4. None.
