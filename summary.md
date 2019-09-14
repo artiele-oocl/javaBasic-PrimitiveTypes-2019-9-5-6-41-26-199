@@ -21,5 +21,17 @@ represent given hex to binary. Since the given hex are not simple, I find a way 
 https://www.binaryhexconverter.com/hex-to-binary-converter
 https://www.binaryhexconverter.com/binary-to-decimal-converter
 2. The test failed because the operation will not yield integer 0.
-3. I corrected the test by converting the hex to binary first because only binary can be used for boolean operations.
+3. I corrected the test by converting the hex to binary first then performing boolean operation because only binary
+can be used for boolean operations.
+4. None.
+
+#### should_do_bitwise_or_boolean_operation
+1. This test is about familiarity of 3 famous number systems: hexadecimal, binary, and decimal.
+It is also an application of performing bitwise operations. To perform bitwise operations, I had to
+represent given hex to binary. Since the given hex are not simple, I find a way to convert them online.
+https://www.binaryhexconverter.com/hex-to-binary-converter
+https://www.binaryhexconverter.com/binary-to-decimal-converter
+2. The test failed because the operation will not yield integer 0.
+3. I corrected the test by converting the hex to binary first then performing boolean operation because only binary
+can be used for boolean operations.
 4. None.
