@@ -155,3 +155,11 @@ https://www.tutorialspoint.com/java/lang/integer_shortvalue.htm
 2. Test failed because it is not equal to the given value.
 3. I utilized a method from wrapper class Integer.
 4. None.
+
+#### should_increment
+1. This is about pre and post incrementation.
+http://www.c4learn.com/java/java-increment-decrement-operator/
+2. Test failed because zero is not equal to the expected.
+3. This test executed post-incrementation where we assigned initial value first then increment that is why expectedResult
+is the initial value.
+4. None.
