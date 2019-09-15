@@ -163,3 +163,10 @@ http://www.c4learn.com/java/java-increment-decrement-operator/
 3. This test executed post-incrementation where we assigned initial value first then increment that is why expectedResult
 is the initial value.
 4. None.
+
+#### should_increment_2
+1. Same as above.
+http://www.c4learn.com/java/java-increment-decrement-operator/
+2. Same as above.
+3. Same as above but this time pre-incrementation.
+4. None.
