@@ -95,3 +95,9 @@ reinvent the wheel.
 3. I corrected it that way because I am familiar that there exist a class Integer. And this class describes both behavior
 and properties of Integer. I explored and found such methods.
 4. None.
+
+#### should_get_range_of_primitive_short_type
+1. The same knowledge point as above.
+2. Test failed because 0 is neither max nor min for short primitive data type.
+3. Same concept as above but this time I explored class Short.
+4. None.
