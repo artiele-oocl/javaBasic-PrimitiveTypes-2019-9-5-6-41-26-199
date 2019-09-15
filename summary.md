@@ -113,3 +113,11 @@ and properties of Integer. I explored and found such methods.
 2. Same as above.
 3. Same as above only this time class Byte is explored.
 4. None.
+
+#### should_overflow_silently
+1. Knowledge is about integer overflow.
+https://dzone.com/articles/overflow-and-underflow-data
+2. Test failed because 0 is not the integer result after overflow.
+3. I answered it this way because when an integer overflows, it simply rolls back to integer minimum value.
+I used a property of wrapper class Integer to represent minimum value of integer.
+4. None.
