@@ -128,3 +128,9 @@ I used a property of wrapper class Integer to represent minimum value of integer
 3. Just the opposite of overflow where a decrement to integral min would result to rolling back to the max integer
 represented by property Integer.MAX_VALUE of wrapper class Integer.
 4. None.
+
+#### should_throw_exception_when_overflow
+1. Knowledge point is about invoking exception.
+2. Test failed because there was no add() implementation.
+3. I used bitwise OR operator so I do not need to check variable right when variable left is already integer max. 
+4. None.
