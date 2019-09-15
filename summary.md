@@ -140,3 +140,11 @@ represented by property Integer.MAX_VALUE of wrapper class Integer.
 2. Test failed because there was no add() implementation.
 3. I used bitwise OR operator so I do not need to check variable right when variable left is already integer max. 
 4. None.
+
+#### should_take_care_of_number_type_when_doing_calculation
+1. This is familiarity with Java Math Operator Precedence, and delta paramater of JUnit
+http://tutorials.jenkov.com/java/math-operators-and-math-class.html
+https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html#assertEquals(double,%20double,%20double)
+2. Test failed because expectedResult1 and expectedResult2 is far beyond the marginal error delta.
+3. I followed correct math operation precedence.
+4. None.
