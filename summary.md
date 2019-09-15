@@ -87,3 +87,11 @@ reinvent the wheel.
 2. The test failed because it is expected rounded value of type long.
 3. I corrected it that way because this specific Math.round expects a double and returns long. No type casting needed.
 4. None.
+
+## IntegerTypeTest
+#### should_get_range_of_primitive_int_type
+1. Familiarity with class Integer's possible max and min values.
+2. Test failed because 0 is neither max nor min value for integer.
+3. I corrected it that way because I am familiar that there exist a class Integer. And this class describes both behavior
+and properties of Integer. I explored and found such methods.
+4. None.
