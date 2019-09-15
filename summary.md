@@ -67,3 +67,11 @@ https://www.baeldung.com/java-type-casting
 the max allowable integer value.
 3. I corrected it that way because I only need to get the integer part of the given floating number; no rounding up.
 4. None.
+
+#### should_judge_special_double_cases
+1. This test is about familiarity with the class Double and its method.
+https://www.tutorialspoint.com/java/lang/double_isinfinite.htm
+2. The test failed because there were no implementations for both isNan and isInfinity inside the class.
+3. I corrected it that way because an already existing static method from class Double can be reused. No need to
+reinvent the wheel.
+4. None.
