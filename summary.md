@@ -134,3 +134,9 @@ represented by property Integer.MAX_VALUE of wrapper class Integer.
 2. Test failed because there was no add() implementation.
 3. I used bitwise OR operator so I do not need to check variable right when variable left is already integer max. 
 4. None.
+
+#### just_prevent_lazy_implementation
+1. This is just a happy case scenario for add() implementation.
+2. Test failed because there was no add() implementation.
+3. I used bitwise OR operator so I do not need to check variable right when variable left is already integer max. 
+4. None.
