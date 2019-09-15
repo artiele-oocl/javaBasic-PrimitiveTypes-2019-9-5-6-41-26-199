@@ -121,3 +121,10 @@ https://dzone.com/articles/overflow-and-underflow-data
 3. I answered it this way because when an integer overflows, it simply rolls back to integer minimum value.
 I used a property of wrapper class Integer to represent minimum value of integer.
 4. None.
+
+#### should_underflow_silently
+1. Same as above but this time underflow.
+2. Same as above but this time underflow.
+3. Just the opposite of overflow where a decrement to integral min would result to rolling back to the max integer
+represented by property Integer.MAX_VALUE of wrapper class Integer.
+4. None.
