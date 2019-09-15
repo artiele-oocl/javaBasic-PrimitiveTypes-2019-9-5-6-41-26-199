@@ -75,3 +75,9 @@ https://www.tutorialspoint.com/java/lang/double_isinfinite.htm
 3. I corrected it that way because an already existing static method from class Double can be reused. No need to
 reinvent the wheel.
 4. None.
+
+#### should_not_round_number_when_convert_to_integer
+1. This has the same concept as should_not_get_rounded_result_if_convert_floating_number_to_integer.
+2. Test failed because it is not asking for the highest integer value possible.
+3. I corrected it that way because it has the same knowledge point as the first test in this class.
+4. None.
