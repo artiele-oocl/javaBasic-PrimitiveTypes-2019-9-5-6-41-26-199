@@ -101,3 +101,9 @@ and properties of Integer. I explored and found such methods.
 2. Test failed because 0 is neither max nor min for short primitive data type.
 3. Same concept as above but this time I explored class Short.
 4. None.
+
+#### should_get_range_of_primitive_long_type
+1. Same as above.
+2. Same as above.
+3. Same as above only this time class Long is explored.
+4. None.
