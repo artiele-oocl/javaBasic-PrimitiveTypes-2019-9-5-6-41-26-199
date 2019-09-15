@@ -148,3 +148,10 @@ https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html#assertEquals(double,
 2. Test failed because expectedResult1 and expectedResult2 is far beyond the marginal error delta.
 3. I followed correct math operation precedence.
 4. None.
+
+#### should_truncate_number_when_casting
+1. This is familiarity with converting integer to short type.
+https://www.tutorialspoint.com/java/lang/integer_shortvalue.htm
+2. Test failed because it is not equal to the given value.
+3. I utilized a method from wrapper class Integer.
+4. None.

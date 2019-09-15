@@ -130,7 +130,8 @@ class IntegerTypeTest {
 
         // TODO: please modify the following lines to pass the test
         // <!--start
-        final short expected = 0;
+        Integer num = new Integer(integer);
+        final short expected = num.shortValue();
         // --end-->
 
         assertEquals(expected, smallerInteger);
