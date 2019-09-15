@@ -58,3 +58,12 @@ https://www.freeformatter.com/java-dotnet-escape.html#ad-output
 2. The test failed because those reserved characters do not represent empty spaces.
 3. The reserved characters are quite popular.
 4. None.
+
+## FloatingTypeTest
+#### should_not_get_rounded_result_if_convert_floating_number_to_integer
+1. This test is about getting the integer value of a floating number.
+https://www.baeldung.com/java-type-casting
+2. The test failed because the problem is about getting the integer value of given floating number not getting
+the max allowable integer value.
+3. I corrected it that way because I only need to get the integer part of the given floating number; no rounding up.
+4. None.
