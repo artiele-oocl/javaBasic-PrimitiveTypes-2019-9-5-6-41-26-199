@@ -107,3 +107,9 @@ and properties of Integer. I explored and found such methods.
 2. Same as above.
 3. Same as above only this time class Long is explored.
 4. None.
+
+#### should_get_range_of_primitive_byte_type
+1. Same as above.
+2. Same as above.
+3. Same as above only this time class Byte is explored.
+4. None.
