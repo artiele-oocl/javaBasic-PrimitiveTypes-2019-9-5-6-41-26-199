@@ -81,3 +81,9 @@ reinvent the wheel.
 2. Test failed because it is not asking for the highest integer value possible.
 3. I corrected it that way because it has the same knowledge point as the first test in this class.
 4. None.
+
+#### should_round_number
+1. Familiarity with rounding methods. I used class Math.
+2. The test failed because it is expected rounded value of type long.
+3. I corrected it that way because this specific Math.round expects a double and returns long. No type casting needed.
+4. None.
